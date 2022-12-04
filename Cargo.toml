@@ -1,0 +1,12 @@
+[package]
+name = "microjs"
+description = "an embeddable javascript runner built for interpetting javascripts files with ease"
+authors = ["joshua radin <jradin16@gmail.com>"]
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT or Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
