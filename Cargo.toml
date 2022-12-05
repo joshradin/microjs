@@ -10,4 +10,13 @@ repository = "https://github.com/joshradin/microjs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[workspace]
+members = ["microjs-derive"]
+
+[features]
+default = []
+derive = ["microjs-derive"]
+
 [dependencies]
+microjs-derive = { version = "0.1.0", path = "microjs-derive", optional = true }
+nom = "7.1.1"
